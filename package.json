@@ -1,9 +1,14 @@
 {
-  "name": "att-activepieces",
+  "name": "@yordinson/att-activepieces",
   "version": "0.37.5",
   "rcVersion": "0.37.0-rc.1",
   "description": "Activepieces for ATT",
   "author": "Activepieces",
+  "main": "packages/react-ui/src/app/app.tsx",
+  "module": "packages/react-ui/src/app/app.tsx",
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/YordinsonPolar/activepieces.git"
@@ -27,7 +32,6 @@
     "push-i18n": "crowdin upload sources",
     "i18n:extract": "i18next --config packages/react-ui/i18next-parser.config.js && jq 'to_entries | map({(.key): .key}) | add' packages/react-ui/public/locales/en/translation.json > packages/react-ui/public/locales/en/translation.tmp.json && mv packages/react-ui/public/locales/en/translation.tmp.json packages/react-ui/public/locales/en/translation.json"
   },
-  "private": true,
   "dependencies": {
     "@activepieces/import-fresh-webpack": "3.3.0",
     "@actual-app/api": "6.8.1",

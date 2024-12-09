@@ -1,7 +1,13 @@
 {
-  "name": "activepieces",
+  "name": "att-activepieces",
   "version": "0.37.5",
   "rcVersion": "0.37.0-rc.1",
+  "description": "Activepieces for ATT",
+  "author": "Activepieces",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YordinsonPolar/activepieces.git"
+  },
   "scripts": {
     "prepare": "husky install",
     "serve:frontend": "nx serve react-ui",

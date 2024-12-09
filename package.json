@@ -1,5 +1,5 @@
 {
-  "name": "@yordinson/att-activepieces",
+  "name": "yordinson-workflow-attention",
   "version": "0.37.5",
   "rcVersion": "0.37.0-rc.1",
   "description": "Activepieces for ATT",
